@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="user-service" />
         <module name="book-service" />
+        <module name="eureka-server" />
         <module name="commons" />
         <module name="borrow-service" />
       </profile>
@@ -20,6 +21,7 @@
       <module name="book-service" options="-parameters" />
       <module name="borrow-service" options="-parameters" />
       <module name="commons" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
   </component>
