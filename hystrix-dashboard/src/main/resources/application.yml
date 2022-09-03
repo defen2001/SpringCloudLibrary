@@ -1,0 +1,6 @@
+server:
+  port: 8900
+hystrix:
+  dashboard:
+    # 将localhost添加到白名单，默认是不允许的
+    proxy-stream-allow-list: "localhost"

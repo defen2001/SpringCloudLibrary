@@ -7,11 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="user-service" />
         <module name="book-service" />
+        <module name="borrow-service" />
+        <module name="hystrix-dashboard" />
+        <module name="gateway-server" />
+        <module name="user-service" />
         <module name="eureka-server" />
         <module name="commons" />
-        <module name="borrow-service" />
       </profile>
     </annotationProcessing>
   </component>
@@ -22,6 +24,8 @@
       <module name="borrow-service" options="-parameters" />
       <module name="commons" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
+      <module name="hystrix-dashboard" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
   </component>

@@ -9,7 +9,9 @@
 		<module>borrow-service</module>
         <module>commons</module>
         <module>eureka-server</module>
-    </modules>
+        <module>hystrix-dashboard</module>
+		<module>gateway-server</module>
+	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
